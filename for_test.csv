@@ -1,0 +1,29 @@
+name,age,salary
+maN,18,1
+SuperСупер<>? 1234_{}'\[]!@#$%^&*(0`ё+-/,120,1000000
+,,
+ma,35,10000
+SupermanSupermanSupermanSupermanSupermanS,35,10000
+  ,35,10000
+ ma,35,10000
+man  ,35,10000
+true,35,10000
+NuN,35,10000
+<script>alert('man')</script>,35,10000
+<a>man</a>,35,10000
+maN,17,1
+maN,121,1
+maN,,1
+maN,  ,1
+maN,aS {},1
+maN,0,1
+maN,-18,1
+maN,true,1
+maN,18.1,1
+maN,18,0
+maN,18,1000001
+maN,18,
+maN,18,1.1
+maN,18,-100000
+maN,18,true
+maN,18,aS {}
