@@ -198,7 +198,15 @@
 							"\r",
 							"pm.test(\"Test deep object comparison\", function () {\r",
 							"    pm.expect(reqData).to.deep.include(expectObject);\r",
-							"});"
+							"});\r",
+							"\r",
+							"// можно сделать немного более очевидную проверку на глубокое соответствие одного объекта другому: \r",
+							"\r",
+							"pm.test(\"Test deep object comparison 2\", function () {\r",
+							"    pm.expect(reqData).to.eql(expectObject);\r",
+							"});\r",
+							"\r",
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -257,9 +265,9 @@
 							"\r",
 							"let expectData ={\r",
 							"    person: '',\r",
-							"    ['qa_salary_after_1.5_year']: 3.3,\r",
+							"    'qa_salary_after_1.5_year': 3.3,\r",
 							"    qa_salary_after_12_months: 2.7,\r",
-							"    ['qa_salary_after_3.5_years']: 3.8,\r",
+							"    'qa_salary_after_3.5_years': 3.8,\r",
 							"    qa_salary_after_6_months: 2,\r",
 							"    start_qa_salary: 1\r",
 							"}\r",
